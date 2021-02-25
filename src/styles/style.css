@@ -1,0 +1,97 @@
+body {
+  font-family: Inter, sans-serif;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-title {
+  font-size: 100px;
+  color: #ffffff;
+  letter-spacing: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-games {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a1919;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  background-color: #000000;
+  color: #f7f3f3;
+  text-align: center;
+}
+
+.thumbnail-game {
+  width: 100%;
+  height: 200px;
+}
+
+.platforms {
+  color: #cecece;
+  margin-right: 15px;
+}
+
+.platforms span {
+  margin-right: 3px;
+}
+
+.media {
+  display: flex;
+}
+
+.media-game {
+  display: flex;
+  height: 240px;
+  margin-right: 50px;
+}
+
+.media-game video {
+  height: 200px;
+  margin-right: 100px;
+}
+
+.info-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #f7f3f3;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 20px;
+  }
+  .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .platforms{
+    width: 320px !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+}
